@@ -31,6 +31,10 @@
     gap: 16px;
 }
 
+.icon-ham{
+    display: none;
+}
+
 .nav-options ul {
     display: flex;
     gap: 44px;
@@ -413,10 +417,74 @@
 
 }
 
-.price-container{
+.price-container {
     display: flex;
     justify-content: center;
 }
+
+/* Extra Section Page - 05 */
+
+.services {
+    max-width: 84%;
+    margin: 100px auto 50px;
+    margin-bottom: 100px;
+}
+
+.services .service-header {
+    text-align: center;
+}
+
+.services .service-header h3 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.services .service-header p {
+    width: 55%;
+    margin: 16px auto 32px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.all-services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.all-services .number {
+    flex: 1 1 30rem;
+    border-radius: .5rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.all-services .number i {
+    padding: 1rem;
+    font-size: 5rem;
+    color: #FF5400;
+}
+
+.all-services .number h4 {
+    color: #131318;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.all-services .number p {
+    margin: 16px auto 32px;
+    color: #5A5A5D;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
 
 
 /* Page - 07 */
