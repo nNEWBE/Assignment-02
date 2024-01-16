@@ -343,9 +343,81 @@
 .choose-section {
     max-width: 84%;
     margin: 100px auto 50px;
-    text-align: center;
     margin-bottom: 100px;
 }
+
+.choose-section .choose-container {
+    text-align: center;
+}
+
+.choose-section .choose-container h3 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.choose-section .choose-container p {
+    width: 50%;
+    margin: 24px auto 48px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.service-container {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.service-container .handpick-hotel {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+}
+
+.handpick-hotel h3,
+.best-price h3,
+.world-class-hotels h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.handpick-hotel p,
+.best-price p,
+.world-class-hotels p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.service-container .world-class-hotels {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px;
+}
+
+.best-price {
+    width: 41.3%;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+
+}
+
+.price-container{
+    display: flex;
+    justify-content: center;
+}
+
 
 /* Page - 07 */
 
@@ -462,12 +534,7 @@
     padding-top: 100px;
 }
 
-/* .footer-container .img-foot{
-    margin-top: 100px;
-} */
-
 .footer .footer-heading h4 {
-    /* display: inline; */
     color: #131318;
     font-size: 36px;
     font-weight: 800;
